@@ -2,7 +2,7 @@
   "name": "run-rails-test",
 	"displayName": "run-rails-test",
 	"description": "Runs rails test",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.62.0"
 	},

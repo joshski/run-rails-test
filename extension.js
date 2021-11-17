@@ -6,7 +6,7 @@ const vscode = require('vscode');
 function activate(context) {
 
 	let disposable = vscode.commands.registerCommand('run-rails-test.runRailsTestForCurrentLine', function () {
-		const line = vscode.window.activeTextEditor.selection.start.line
+		const line = vscode.window.activeTextEditor.selection.start.line + 1 // line numbers are 0-based
 		let file = vscode.window.activeTextEditor.document.fileName
 		
 		const folders = vscode.workspace.workspaceFolders
