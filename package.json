@@ -6,6 +6,7 @@
 	"engines": {
 		"vscode": "^1.62.0"
 	},
+	"publisher": "joshski",
 	"categories": [
 		"Other"
 	],
